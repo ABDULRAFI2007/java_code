@@ -1,4 +1,4 @@
-public class School {
+public class enhancedforloop{
     public static void main(String[] args) {
 
         int num[] = {12, 45, 67, 89};
@@ -11,13 +11,14 @@ public class School {
         System.out.println("-----");
         String[] dum = {"one", "two"};
 
-        for (String ars : dum) {
+        for (String ars:dum) {
             System.out.println(ars);
-
+        }
         // Enhanced for-each loop
-        for (int var : num) {
+        for (int var:num) {
             System.out.println(var);
             System.out.println();
-        }
+        
     }
+}
 }
